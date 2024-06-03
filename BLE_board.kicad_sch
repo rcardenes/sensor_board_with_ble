@@ -1,0 +1,229 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "75856061-4be0-4eb9-8c9e-0f2487affa58")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 76.454 31.75) (xy 104.648 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21181882-db98-4243-b116-aa472f3e4f9d")
+	)
+	(wire
+		(pts
+			(xy 76.454 34.29) (xy 104.648 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dffa3c-4b6f-4bb6-b501-f4d80f452fc7")
+	)
+	(wire
+		(pts
+			(xy 76.454 36.83) (xy 104.648 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b099e645-0648-45e1-ab8c-63b27bb9a720")
+	)
+	(wire
+		(pts
+			(xy 76.454 39.37) (xy 104.648 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd29f172-4902-497e-b528-8c3b3a36229e")
+	)
+	(sheet
+		(at 24.384 25.4)
+		(size 52.07 25.654)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6eb0e66d-6e36-4d9a-ab5d-f8011a887011")
+		(property "Sheetname" "MCU Module"
+			(at 24.384 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_module.kicad_sch"
+			(at 24.384 51.6386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 76.454 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7067524d-427f-4e5a-8072-74c89e183b00")
+		)
+		(pin "SPI_SCK" input
+			(at 76.454 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5b7eb2d4-d0e6-4d67-bc3e-d04f20e3175a")
+		)
+		(pin "SPI_MISO" input
+			(at 76.454 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2f486cba-2538-4f87-8c91-7c6637537bf6")
+		)
+		(pin "SPI_CS" input
+			(at 76.454 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40b2fc88-2c28-40a6-bbd5-085141c0ff3b")
+		)
+		(instances
+			(project "BLE_board"
+				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.648 24.384)
+		(size 51.054 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aa9bdefb-e9df-4112-aa6c-8a66de7c6fba")
+		(property "Sheetname" "RF Module"
+			(at 104.648 23.6724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BLE_RF_Module.kicad_sch"
+			(at 104.648 51.6386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SPI_MISO" input
+			(at 104.648 36.83 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "10165c82-39e0-4948-a821-9838ac8c92c3")
+		)
+		(pin "SPI_SCK" input
+			(at 104.648 31.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7df8e658-1cbd-408d-b98b-80ff673c324e")
+		)
+		(pin "SPI_CS" input
+			(at 104.648 39.37 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c4f25165-94ef-4adf-9f45-21cdb16b8637")
+		)
+		(pin "RF_IRQ" input
+			(at 104.648 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "162c64ef-070b-4c2d-88a3-3aeb1ac0e91b")
+		)
+		(pin "RF_CE" input
+			(at 104.648 44.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "955f91e1-266a-49cf-a7ec-0b44434506a1")
+		)
+		(pin "SPI_MOSI" input
+			(at 104.648 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "02e53236-334d-466b-bef0-a7b02c41f5f8")
+		)
+		(instances
+			(project "BLE_board"
+				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
