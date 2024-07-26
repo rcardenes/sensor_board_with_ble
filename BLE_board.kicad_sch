@@ -17,6 +17,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.454 44.45) (xy 104.648 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "557fea17-6864-4679-8569-e9db31c80f36")
+	)
+	(wire
+		(pts
 			(xy 76.454 34.29) (xy 104.648 34.29)
 		)
 		(stroke
@@ -37,6 +47,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 51.054) (xy 55.88 58.674)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bab4f67e-c4ae-4cad-9e67-0d34617aaa70")
+	)
+	(wire
+		(pts
 			(xy 76.454 39.37) (xy 104.648 39.37)
 		)
 		(stroke
@@ -44,6 +64,84 @@
 			(type default)
 		)
 		(uuid "bd29f172-4902-497e-b528-8c3b3a36229e")
+	)
+	(wire
+		(pts
+			(xy 58.42 51.054) (xy 58.42 58.674)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1285f1d-f08e-4cad-89a9-71241e6cb50b")
+	)
+	(wire
+		(pts
+			(xy 76.454 41.91) (xy 104.648 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee84298f-00dd-4e24-98a8-89bf8c0f97c9")
+	)
+	(sheet
+		(at 24.384 58.674)
+		(size 51.308 23.876)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "300908a8-4daf-42bb-995e-ad716e8a0f18")
+		(property "Sheetname" "USB and Power"
+			(at 24.384 57.9624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_module.kicad_sch"
+			(at 24.384 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB_D+" input
+			(at 55.88 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "93d6ef80-148d-4b4e-b259-c763a019243b")
+		)
+		(pin "USB_D-" input
+			(at 58.42 58.674 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97bece55-9c74-4014-9b5d-34901ac00208")
+		)
+		(instances
+			(project "BLE_board"
+				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58"
+					(page "4")
+				)
+			)
+		)
 	)
 	(sheet
 		(at 24.384 25.4)
@@ -114,6 +212,46 @@
 				(justify right)
 			)
 			(uuid "40b2fc88-2c28-40a6-bbd5-085141c0ff3b")
+		)
+		(pin "RF_CE" input
+			(at 76.454 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9fd64a31-33f7-4089-97fc-e95bbe47e7c9")
+		)
+		(pin "RF_IRQ" input
+			(at 76.454 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e6036a2c-152b-49cc-9532-1d3cba350ec0")
+		)
+		(pin "USB_D+" input
+			(at 55.88 51.054 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7f665679-5e09-4ff9-8280-2373182d7e7c")
+		)
+		(pin "USB_D-" input
+			(at 58.42 51.054 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "abadbf29-96c4-4cec-a72a-ccec6b5005cd")
 		)
 		(instances
 			(project "BLE_board"
