@@ -1,3 +1,4 @@
 *.lck
 ~*
 BLE_board-backups/
+\#auto_saved*
