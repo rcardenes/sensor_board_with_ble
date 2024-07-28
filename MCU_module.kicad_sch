@@ -2823,6 +2823,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 181.61 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bcae8820-0936-4740-a229-18c256ab6096")
 		)
@@ -2950,6 +2959,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C4943297"
 			(at 113.03 43.18 0)
 			(effects
 				(font
@@ -3111,6 +3129,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82453"
 			(at 172.72 31.75 0)
 			(effects
 				(font
@@ -3795,7 +3822,7 @@
 				)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 156.2163 62.23 90)
 			(effects
 				(font
@@ -3823,6 +3850,15 @@
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
 			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 156.21 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,6 +3936,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 163.83 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "955eb2ce-7ce9-43fc-ab7b-2139e4ce470a")
 		)
@@ -3962,6 +4007,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 199.39 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C15195"
 			(at 199.39 31.75 0)
 			(effects
 				(font
@@ -4106,6 +4160,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25804"
+			(at 142.24 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4abd1170-10c1-4f3b-8da0-0ba693a196f9")
 		)
@@ -4176,6 +4239,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C82453"
+			(at 154.94 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "81fb430a-a9b9-43dd-a50e-c9ca0e3d645c")
 		)
@@ -4238,6 +4310,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 190.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 190.5 31.75 0)
 			(effects
 				(font

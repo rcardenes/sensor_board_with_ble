@@ -2699,6 +2699,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C90138"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ecaf25f-eb2d-4f3a-805a-8ce6b4920aac")
 		)
@@ -2903,6 +2912,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C85883"
+			(at 83.82 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1498a0c3-6ad4-42cb-acbe-f4dedd2cd9d7")
 		)
@@ -2965,6 +2983,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 184.15 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25768"
 			(at 184.15 95.25 0)
 			(effects
 				(font
@@ -3043,6 +3070,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C126534"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "caa10f25-99e7-467e-b8d6-a8a1846e54b2")
 		)
@@ -3113,6 +3149,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1523"
+			(at 219.71 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "39c068dc-f9e8-4bca-8541-fa049796cf67")
 		)
@@ -3175,6 +3220,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 196.85 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C82453"
 			(at 196.85 29.21 0)
 			(effects
 				(font
@@ -3318,6 +3372,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1552"
+			(at 86.36 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c1410890-ee61-421a-8f4b-44f74ac1ab23")
 		)
@@ -3351,7 +3414,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "12p"
 			(at 113.03 38.1062 0)
 			(effects
 				(font
@@ -3379,6 +3442,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 115.57 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1547"
 			(at 115.57 36.83 0)
 			(effects
 				(font
@@ -3451,6 +3523,15 @@
 			)
 		)
 		(property "Description" "nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C8791"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -3583,6 +3664,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C15195"
+			(at 208.28 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "349d24ee-1d2f-48fc-a7ed-52366da8c427")
 		)
@@ -3644,6 +3734,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 195.58 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C301940"
 			(at 195.58 95.25 0)
 			(effects
 				(font
@@ -3720,6 +3819,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C14033"
+			(at 74.93 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd590871-1e67-4dc0-b784-0c8051df941a")
 		)
@@ -3754,7 +3862,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "12p"
 			(at 133.35 38.1062 0)
 			(effects
 				(font
@@ -3782,6 +3890,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 130.81 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1547"
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -3851,6 +3968,15 @@
 		)
 		(property "Description" "Inductor, small symbol"
 			(at 74.93 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C370214"
+			(at 74.93 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4089,7 +4215,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal_GND24_Small"
+		(property "Value" "16MHz"
 			(at 124.206 27.432 0)
 			(effects
 				(font
@@ -4116,6 +4242,15 @@
 			)
 		)
 		(property "Description" "Four pin crystal, GND on pins 2 and 4, small symbol"
+			(at 123.19 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C13738"
 			(at 123.19 33.02 0)
 			(effects
 				(font
@@ -4326,6 +4461,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 95.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1550"
 			(at 95.25 77.47 0)
 			(effects
 				(font

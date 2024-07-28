@@ -1509,20 +1509,19 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:MIC5365-3.3YD5"
+		(symbol "Regulator_Linear:MIC5365-3.3YC5"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -7.62 6.35 0)
+				(at -6.35 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "MIC5365-3.3YD5"
+			(property "Value" "MIC5365-3.3YC5"
 				(at 0 6.35 0)
 				(effects
 					(font
@@ -1531,7 +1530,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 				(at 0 8.89 0)
 				(effects
 					(font
@@ -1541,7 +1540,7 @@
 				)
 			)
 			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"
-				(at -6.35 6.35 0)
+				(at -7.62 20.32 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1549,7 +1548,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23-5"
+			(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SC-70-5"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1567,7 +1566,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT*353*SC*70*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1576,7 +1575,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MIC5365-3.3YD5_0_1"
+			(symbol "MIC5365-3.3YC5_0_1"
 				(rectangle
 					(start -7.62 -5.08)
 					(end 7.62 5.08)
@@ -1589,7 +1588,7 @@
 					)
 				)
 			)
-			(symbol "MIC5365-3.3YD5_1_1"
+			(symbol "MIC5365-3.3YC5_1_1"
 				(pin power_in line
 					(at -10.16 2.54 0)
 					(length 2.54)
@@ -2628,6 +2627,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2827693"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "123cec20-f9fe-4bf7-b1ee-378e768982ca")
 		)
@@ -2842,6 +2850,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2286"
+			(at 189.23 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1bb891e1-b61c-420d-aa02-f37b72ce3d5b")
 		)
@@ -2852,83 +2869,6 @@
 			(project ""
 				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58/300908a8-4daf-42bb-995e-ad716e8a0f18"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:MIC5365-3.3YD5")
-		(at 154.94 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "348d5a8d-2d1f-4cf9-a46e-a37e40307a7a")
-		(property "Reference" "U4"
-			(at 154.94 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIC5365-3.3YD5"
-			(at 154.94 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 154.94 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"
-			(at 148.59 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SOT-23-5"
-			(at 154.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "9cb3dfcd-c4a9-4608-8620-81ae776344d1")
-		)
-		(pin "1"
-			(uuid "48ce9204-52f8-4cbd-bce6-694b6975abbe")
-		)
-		(pin "2"
-			(uuid "948e6d34-8001-44ea-99b1-52e78816feee")
-		)
-		(pin "4"
-			(uuid "ef33e62b-3f74-4cf9-bde9-3698ddf02907")
-		)
-		(pin "5"
-			(uuid "b6c1d580-08ca-4f2f-ad09-e72669715e70")
-		)
-		(instances
-			(project ""
-				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58/300908a8-4daf-42bb-995e-ad716e8a0f18"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -2980,6 +2920,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 100.33 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 100.33 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3189,6 +3138,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C319148"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B6"
 			(uuid "662ba339-a46a-4073-91c8-e214dbd7b5fc")
 		)
@@ -3238,6 +3196,92 @@
 			(project "BLE_board"
 				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58/300908a8-4daf-42bb-995e-ad716e8a0f18"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MIC5365-3.3YC5")
+		(at 154.94 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d54ad2-0302-4222-bce2-577c68689517")
+		(property "Reference" "U5"
+			(at 154.94 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MIC5365-3.3YC5"
+			(at 154.94 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 154.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5365.pdf"
+			(at 147.32 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, SC-70-5"
+			(at 154.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3021118"
+			(at 154.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4f9f35f-f50f-4924-817e-cfea753379b3")
+		)
+		(pin "3"
+			(uuid "3b6edbe0-f843-4087-86cb-3d50b6f76a32")
+		)
+		(pin "4"
+			(uuid "250bc2f8-749d-47bf-870f-bfd9098257bf")
+		)
+		(pin "2"
+			(uuid "edd5a409-9949-41f5-8e92-a2ee84d3b351")
+		)
+		(pin "5"
+			(uuid "09440453-6b6e-43f6-8f04-b326174e1f70")
+		)
+		(instances
+			(project ""
+				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58/300908a8-4daf-42bb-995e-ad716e8a0f18"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3365,6 +3409,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C25879"
+			(at 194.31 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bce030f7-8245-4cac-9004-94b6ff96d364")
 		)
@@ -3426,6 +3479,15 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 100.33 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25905"
+			(at 100.33 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3503,6 +3565,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C52923"
+			(at 170.18 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7bc05dfa-0029-4836-95af-3a6ffaa4912a")
 		)
@@ -3564,6 +3635,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 83.82 90.17 0)
 			(effects
 				(font
@@ -3634,6 +3714,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 133.35 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
 			(at 133.35 38.1 0)
 			(effects
 				(font
