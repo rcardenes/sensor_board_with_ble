@@ -2627,7 +2627,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2827693"
+		(property "MPN" "C2827693"
+			(at 105.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 105.41 88.9 0)
 			(effects
 				(font
@@ -2850,7 +2859,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "MPN" "C2286"
 			(at 189.23 33.02 0)
 			(effects
 				(font
@@ -2927,7 +2936,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "MPN" "C25905"
 			(at 100.33 55.88 90)
 			(effects
 				(font
@@ -3138,7 +3147,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C319148"
+		(property "MPN" "C319148"
+			(at 53.34 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Position Offset" "0,1.4605"
 			(at 53.34 63.5 0)
 			(effects
 				(font
@@ -3254,7 +3272,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3021118"
+		(property "MPN" "C3021118"
 			(at 154.94 35.56 0)
 			(effects
 				(font
@@ -3409,7 +3427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25879"
+		(property "MPN" "C25879"
 			(at 194.31 38.1 0)
 			(effects
 				(font
@@ -3486,7 +3504,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25905"
+		(property "MPN" "C25905"
 			(at 100.33 53.34 90)
 			(effects
 				(font
@@ -3565,7 +3583,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "MPN" "C52923"
 			(at 170.18 38.1 0)
 			(effects
 				(font
@@ -3643,7 +3661,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "MPN" "C1525"
 			(at 83.82 90.17 0)
 			(effects
 				(font
@@ -3722,7 +3740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "MPN" "C52923"
 			(at 133.35 38.1 0)
 			(effects
 				(font

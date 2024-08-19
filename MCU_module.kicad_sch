@@ -2823,7 +2823,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "MPN" "C1525"
 			(at 181.61 31.75 0)
 			(effects
 				(font
@@ -2940,7 +2940,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
+		(property "Footprint" "Custom_Connectors:PinHeader_2x05_P1.27mm_Vertical_SMD_w_fiducials"
 			(at 113.03 43.18 0)
 			(effects
 				(font
@@ -2967,7 +2967,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4943297"
+		(property "MPN" "C4943297"
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 113.03 43.18 0)
 			(effects
 				(font
@@ -3137,7 +3146,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C82453"
+		(property "MPN" "C82453"
 			(at 172.72 31.75 0)
 			(effects
 				(font
@@ -3214,7 +3223,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C231329"
+		(property "MPN" "C231329"
 			(at 156.21 55.88 0)
 			(effects
 				(font
@@ -3358,7 +3367,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB" "C231329"
+		(property "MPN" "C231329"
 			(at 142.24 97.79 0)
 			(effects
 				(font
@@ -3636,7 +3645,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C961597"
+		(property "MPN" "C961597"
+			(at 186.69 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 186.69 91.44 0)
 			(effects
 				(font
@@ -3857,7 +3875,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "MPN" "C1525"
 			(at 156.21 66.04 90)
 			(effects
 				(font
@@ -3936,7 +3954,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "MPN" "C1525"
 			(at 163.83 31.75 0)
 			(effects
 				(font
@@ -4015,7 +4033,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
+		(property "MPN" "C15195"
 			(at 199.39 31.75 0)
 			(effects
 				(font
@@ -4160,7 +4178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25804"
+		(property "MPN" "C25804"
 			(at 142.24 109.22 0)
 			(effects
 				(font
@@ -4239,7 +4257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C82453"
+		(property "MPN" "C82453"
 			(at 154.94 31.75 0)
 			(effects
 				(font
@@ -4318,7 +4336,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "MPN" "C52923"
 			(at 190.5 31.75 0)
 			(effects
 				(font

@@ -2699,7 +2699,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C90138"
+		(property "MPN" "C90138"
 			(at 67.31 78.74 0)
 			(effects
 				(font
@@ -2912,7 +2912,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85883"
+		(property "MPN" "C85883"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -2991,7 +2991,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25768"
+		(property "MPN" "C25768"
 			(at 184.15 95.25 0)
 			(effects
 				(font
@@ -3070,7 +3070,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C126534"
+		(property "MPN" "C126534"
 			(at 76.2 96.52 0)
 			(effects
 				(font
@@ -3149,7 +3149,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1523"
+		(property "MPN" "C1523"
 			(at 219.71 29.21 0)
 			(effects
 				(font
@@ -3228,7 +3228,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C82453"
+		(property "MPN" "C82453"
 			(at 196.85 29.21 0)
 			(effects
 				(font
@@ -3372,7 +3372,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1552"
+		(property "MPN" "C1552"
 			(at 86.36 73.66 90)
 			(effects
 				(font
@@ -3450,7 +3450,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "MPN" "C1547"
 			(at 115.57 36.83 0)
 			(effects
 				(font
@@ -3531,7 +3531,16 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C8791"
+		(property "MPN" "C8791"
+			(at 213.36 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Rotation Offset" "-90"
 			(at 213.36 77.47 0)
 			(effects
 				(font
@@ -3664,7 +3673,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C15195"
+		(property "MPN" "C15195"
 			(at 208.28 29.21 0)
 			(effects
 				(font
@@ -3742,7 +3751,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C301940"
+		(property "MPN" "C301940"
 			(at 195.58 95.25 0)
 			(effects
 				(font
@@ -3819,7 +3828,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C14033"
+		(property "MPN" "C14033"
 			(at 74.93 73.66 90)
 			(effects
 				(font
@@ -3898,7 +3907,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "MPN" "C1547"
 			(at 130.81 36.83 0)
 			(effects
 				(font
@@ -3975,7 +3984,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C370214"
+		(property "MPN" "C108255"
 			(at 74.93 83.82 90)
 			(effects
 				(font
@@ -4250,7 +4259,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C13738"
+		(property "MPN" "C13738"
 			(at 123.19 33.02 0)
 			(effects
 				(font
@@ -4469,7 +4478,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1550"
+		(property "MPN" "C1550"
 			(at 95.25 77.47 0)
 			(effects
 				(font
@@ -4565,7 +4574,7 @@
 		(at 113.03 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)

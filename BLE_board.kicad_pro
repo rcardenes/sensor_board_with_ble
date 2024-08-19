@@ -63,7 +63,12 @@
           "width": 0.267208
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|106610000|80800000|f9836d88-33fa-417c-9a93-7d59c20cfc2a|22673475-35b5-4c4e-acf9-b6ecaac809ba",
+        "hole_clearance|106610000|81000000|432257dd-7066-4638-8b0f-7a8e3aaafb28|22673475-35b5-4c4e-acf9-b6ecaac809ba",
+        "hole_clearance|106610000|86400000|0ea79d58-cb3a-498b-be98-deb281b2450f|23fd16d8-18a7-49ef-869d-e6610e5c156f",
+        "hole_clearance|106610000|86600000|dd3179c2-56e2-4200-81fd-afbd1bfabd47|23fd16d8-18a7-49ef-869d-e6610e5c156f"
+      ],
       "meta": {
         "version": 2
       },
@@ -549,11 +554,29 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
