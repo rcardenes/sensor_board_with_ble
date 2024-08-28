@@ -1,4 +1,4 @@
-23756942402250056
+23770729569409479
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,20 @@ audio belton reverb
 0
 7
 7
+BGA
+BGA-25_5x5_6.0x6.0mm
+
+
+0
+25
+25
+BGA
+T-PBGA-240b05_6.0x8.0mm
+
+
+0
+24
+24
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -56538,6 +56552,13 @@ emi filter
 0
 5
 5
+Filter_Extra
+SMD-4P_0.8x1.6mm_EIA-0603
+
+
+0
+4
+4
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
@@ -61015,6 +61036,13 @@ Inductor_SMD
 L_Wurth_WE-CAIR-5910
 WE-CAIR Air coil, https://www.we-online.com/components/products/datasheet/744918254.pdf
 air coil inductor wurth we cair
+0
+2
+2
+Inductor_SMD_Extra
+L_Taiyo_NR6045
+
+
 0
 2
 2
@@ -69810,6 +69838,20 @@ BGA 484 0.8 SBG485 SBV485
 0
 484
 484
+Package_BGA_Extra
+FBGA-153_14x14_11.5x13.0mm
+
+
+0
+153
+153
+Package_BGA_Extra
+Lattice_ucfBGA-36_2.5x2.5mm_Layout6x6_P0.4mm_Ball0.25mm
+
+
+0
+36
+36
 Package_CSP
 Analog_LFCSP-8-1EP_3x3mm_P0.5mm_EP1.53x1.85mm
 LFCSP, exposed pad, Analog Devices (http://www.analog.com/media/en/technical-documentation/data-sheets/ADL5542.pdf)
@@ -75396,6 +75438,13 @@ WQFN NoLead
 0
 82
 43
+Package_DFN_QFN_Extra
+QFN-20_EP_5.05x5.05_Pitch0.5mm
+
+
+0
+37
+21
 Package_DIP
 CERDIP-8_W7.62mm_SideBrazed
 8-lead through-hole mounted CERDIP, JEDEC MS-015-AA package, row spacing 7.62mm (300 mils), SideBrazed, https://www.jedec.org/system/files/docs/Ms-015a.pdf
@@ -84524,6 +84573,13 @@ TO-264-5 Vertical RM 3.81mm
 0
 5
 5
+Packages
+Lattice_ucfBGA-36_2.5x2.5mm_Layout6x6_P0.4mm_Ball0.25mm
+
+
+0
+36
+36
 Packages
 QFN-36_EP_6x6_Pitch0.5mm
 
