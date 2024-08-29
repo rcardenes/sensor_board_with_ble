@@ -830,8 +830,8 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 17.78 0)
+			(property "Reference" "U2"
+				(at 4.7341 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -840,7 +840,7 @@
 				)
 			)
 			(property "Value" "nRF24L01P"
-				(at 5.08 17.78 0)
+				(at 4.7341 19.05 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -869,6 +869,24 @@
 				)
 			)
 			(property "Description" "nRF24L01+, Ultra low power 2.4GHz RF Transceiver, QFN20 4x4mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "C8791"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLCPCB Rotation Offset" "-90"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1206,6 +1224,24 @@
 						)
 					)
 					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -20.32 90)
+					(length 3.81)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1587,6 +1623,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55f2cbe4-42a1-4bd4-ae01-5ae17f849740")
+	)
+	(junction
+		(at 208.28 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58152359-75a5-42ed-ac8d-0b72eafc9a3e")
 	)
 	(junction
 		(at 115.57 33.02)
@@ -2054,6 +2096,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 100.33) (xy 210.82 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c09acbd-3d4f-4775-abbc-b312c0e63758")
+	)
+	(wire
+		(pts
 			(xy 198.12 72.39) (xy 175.26 72.39)
 		)
 		(stroke
@@ -2164,7 +2216,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 100.33) (xy 210.82 102.87)
+			(xy 208.28 100.33) (xy 208.28 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2191,6 +2243,16 @@
 			(type default)
 		)
 		(uuid "b726bede-6457-4d94-9dd6-9ebbfab3d7c3")
+	)
+	(wire
+		(pts
+			(xy 208.28 97.79) (xy 208.28 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba85c61c-b576-493a-8202-39767059288b")
 	)
 	(wire
 		(pts
@@ -3609,6 +3671,9 @@
 		(pin "17"
 			(uuid "6bf55b16-61e7-47ea-838d-33aa91518854")
 		)
+		(pin "21"
+			(uuid "05580dd0-f7ad-4db6-9f5f-028d91dacc6e")
+		)
 		(instances
 			(project "BLE_board"
 				(path "/75856061-4be0-4eb9-8c9e-0f2487affa58/aa9bdefb-e9df-4112-aa6c-8a66de7c6fba"
@@ -4142,7 +4207,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 102.87 0)
+		(at 208.28 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4151,7 +4216,7 @@
 		(fields_autoplaced yes)
 		(uuid "c8e165c7-b0f1-4e18-8a47-f186e7b77f7d")
 		(property "Reference" "#PWR04"
-			(at 210.82 109.22 0)
+			(at 208.28 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4160,7 +4225,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 107.95 0)
+			(at 208.28 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4169,7 +4234,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 102.87 0)
+			(at 208.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4178,7 +4243,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 102.87 0)
+			(at 208.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4187,7 +4252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 102.87 0)
+			(at 208.28 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

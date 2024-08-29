@@ -63,17 +63,7 @@
           "width": 0.267208
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|96010000|76800000|22673475-35b5-4c4e-acf9-b6ecaac809ba|f9836d88-33fa-417c-9a93-7d59c20cfc2a",
-        "hole_clearance|96010000|77000000|22673475-35b5-4c4e-acf9-b6ecaac809ba|432257dd-7066-4638-8b0f-7a8e3aaafb28",
-        "hole_clearance|96010000|82400000|23fd16d8-18a7-49ef-869d-e6610e5c156f|0ea79d58-cb3a-498b-be98-deb281b2450f",
-        "hole_clearance|96010000|82600000|23fd16d8-18a7-49ef-869d-e6610e5c156f|dd3179c2-56e2-4200-81fd-afbd1bfabd47",
-        "lib_footprint_mismatch|110150000|70205000|59767031-d955-4993-a72b-826dce3ef960|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|128310000|75540000|b5e564d6-d271-440b-b481-6133de65626b|00000000-0000-0000-0000-000000000000",
-        "silk_edge_clearance|90500000|75120000|8bd5589c-0b6e-4f32-a06d-738812722e98|6aae04a5-5385-47d8-b6d2-d452d728beb3",
-        "silk_edge_clearance|90500000|84280000|8bd5589c-0b6e-4f32-a06d-738812722e98|71c17ebd-6e49-46ec-bc01-f223f83dc0f1",
-        "starved_thermal|127310000|73602500|8a26d7f1-e5aa-480e-892f-0715a7601bdf|eb09039a-851d-43fa-bfd2-65e9e115aa4f|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -484,6 +474,23 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.267208,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -491,7 +498,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "USB",
+        "pattern": "*USB*_D?"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
